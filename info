@@ -1,0 +1,3 @@
+mvn test -DsuiteXmlFile=src/test/resources/testng.xml -Dgroups=functest
+mvn test -DsuiteXmlFile="testng.xml,testnggroups.xml"
+
